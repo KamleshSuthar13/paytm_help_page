@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --font-size: 14px;
+}
+
+.container {
+    margin: 0 6px 0 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 12px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.logo span {
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.heading {
+    margin-bottom: 22px;
+}
+
+.tickets-details>p {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.multi-ticket {
+    display: flex;
+}
+
+.sitilink-logo {
+    height: 42px;
+    width: 42px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-image: url("images/sitilink.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 42px;
+}
+
+
+.tc-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tc-about>span {
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tc-2 {
+    padding: 8px 12px 0px;
+    font-size: var(--font-size);
+}
+
+#Success {
+    color: #25b87bff;
+}
+
+.ticket-info hr {
+    margin: 18px 0 18px 12px;
+}
+
+.btn {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 2px 20px;
+    font-size: var(--font-size);
+}
+
+.footer-data {
+    position: absolute;
+    bottom: 0;
+}
+
+.grey-line {
+    height: 10px;
+    background-color: #ffe4e4;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 12px;
+}
+
+.msg-icon {
+    height: 30px;
+    width: 31px;
+    background-image: url("images/comment.png");
+    background-size: cover;
+}
+
+.msg {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    margin: 18px 0 6px;
+    font-size: var(--font-size);
+    font-weight: bold;
+}
+
+.blue-line {
+    height: 7px;
+    background-color: #00B9F1;
+}
